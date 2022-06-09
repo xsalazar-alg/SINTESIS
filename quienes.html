@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta charset="utf-8">
     <meta author="grupo 1">
     <title>QUI SOM</title>
     <link rel="stylesheet" href="estils.css" type="text/css">
@@ -37,8 +37,7 @@
         $('html, body').animate({scrollTop:0}, 'slow');
         return false;
     });
-
-});
+    });
     </script>
     <style>
     @import url('http://fonts.cdnfonts.com/css/kulhu-one');
@@ -48,41 +47,37 @@
 
     <body>
         <nav class="normal"><a name="inicio"> </a>
-          <ul>
-          <a href="#home" class="active" ><img src="img/shortlogo.png" width="45px"></a>
-        <li style="float:right"><a class="active" href="recetas.html">RECEPTES</a></li>
-        <li style="float:right"><a class="active" href="quienes.html">QUI SOM?</a></li>
-        <li style="float:right"><a class="active" href="index.html">INICI</a></li>
-        <!-- nuestros apartados -->
-      </ul>
-    </nav>
+                <ul>
+                  <a class="active" href="index.html"><img src="img/shortlogo.png" width="45px"></a>
+                  <li style="float:right"><a class="active" href="recetas.html">RECEPTES</a></li>
+                  <li style="float:right"><a class="active" href="quienes.html">QUI SOM?</a></li>
+                  <li style="float:right"><a class="active" href="index.html">INICI</a></li>
+                  <div class="clear"></div>
+                  <!-- nuestros apartados -->
+                </ul>
+          </nav>
 
-    <nav class="mobile">
-      <div class="topnav">
-
-        <a href="#home" class="active" ><img src="img/shortlogo.png"><p>QUI SOM?</p></a>
-
-
-
-        <!-- logotipo en la barra de navegación -->
-          <div id="myLinks">
-          <!-- menu hamburguesa -->
-            <a href="index.html">INICI</a>
-            <a href="quienes.html">QUI SOM?</a>
-            <a href="recetas.html">RECEPTES</a>
-          <!-- nuestros apartados -->
-          </div>
-          <!--función del javascript para abrir el menú hamburguesa-->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </nav>
+          <nav class="mobile"></a>
+            <div class="topnav">
+              <a href="#home" class="active" ><img src="img/shortlogo.png"></a>
+              <!-- logotipo en la barra de navegación -->
+                <div id="myLinks">
+                <!-- menu hamburguesa -->
+                  <a href="index.html">INICI</a>
+                  <a href="quienes.html">QUI SOM?</a>
+                  <a href="recetas.html">RECEPTES</a>
+                <!-- nuestros apartados -->
+                </div>
+                <!--función del javascript para abrir el menú hamburguesa-->
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </nav>
 
 
 
 
-    <div class="clear"></a></div>
       <div class=presentacio>
 
         <div class="title">
@@ -98,30 +93,30 @@
         </div>
 
 
+        <div id="boton"><a href="#inicio"> <img src="img/globoweb.png" height= "80px"> </a></div>
 
 
+        <footer>
+              &copy; Copyright 2022 - AFIYET OLSUN
+              <div class="pie">
+                <a href="https://twitter.com/afiyetolsun22" target="_blank"><img src="img/icon/twt.png" alt="twitter"> </a> <a href="https://instagram.com/afiyet_olsun_22?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/icon/igram.png" alt="instagram"> </a>
+              </div>
+        </footer>
 
-      <div id="boton"><a href="#inicio"> <img src="img/globoweb.png" height= "80px"> </a></div>
-
-
-      <footer>
-
-            &copy; Copyright 2022 - AFIYET OLSUN
-            <div class="pie">
-              <a href="https://twitter.com/afiyetolsun22"><img src="img/icon/twt.png" alt="twitter"> </a> <a href="https://instagram.com/afiyet_olsun_22?igshid=YmMyMTA2M2Y="><img src="img/icon/igram.png" alt="instagram"> </a>
-            </div>
-      </footer>
-
-     <script>
-       function myFunction() {
-         var x = document.getElementById("myLinks");
-         if (x.style.display === "block") {
-           x.style.display = "none";
-         } else {
-           x.style.display = "block";
+       <script>
+         function myFunction() {
+           var x = document.getElementById("myLinks");
+           if (x.style.display === "block") {
+             x.style.display = "none";
+           } else {
+             x.style.display = "block";
+           }
          }
-       }
-     </script>
+       </script>
+
+
+
+
 
   </body>
 </html>
